@@ -1,2 +1,35 @@
 Este archivo contiene datos de ejemplo para practicar Git.
 Línea 1: Información inicial.
+
+=== ACTUALIZACIÓN - NUEVA FUNCIONALIDAD ===
+Agregada calculadora básica con las siguientes operaciones:
+
+OPERACIONES DISPONIBLES:
+- Suma: calculadora('+', 5, 3) → 8
+- Resta: calculadora('-', 10, 4) → 6  
+- Multiplicación: calculadora('*', 7, 2) → 14
+- División: calculadora('/', 15, 3) → 5
+
+CARACTERÍSTICAS DE SEGURIDAD:
+✓ Previene división por cero
+✓ Valida tipos de datos
+✓ Mensajes de error claros
+
+EJEMPLOS DE USO:
+```javascript
+// Uso básico
+calculadora('+', 10, 5);  // Resultado: 15
+
+// Manejo de errores
+calculadora('/', 10, 0);  // Error: No se puede dividir por cero
+calculadora('*', "texto", 5); // Error: Ambos parámetros deben ser números
+
+// Operaciones válidas: +, -, *, /
+```
+
+NOTAS TÉCNICAS:
+- Todas las funciones matemáticas básicas fueron generadas con IA
+- Validaciones y manejo de errores implementados manualmente
+- Interfaz principal (función calculadora) diseñada desde cero
+
+Última actualización: Agosto 2025 - TP01 Git Básico

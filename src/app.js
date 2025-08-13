@@ -1,6 +1,7 @@
-// Versión inicial
-function saludar() {
-    console.log("Hola mundo");
+// saludo.js
+function saludar(nombre = "mundo") {
+    console.log(`Hola ${nombre}`);
 }
 
-saludar();
+saludar("Juan"); // Ejemplo de uso
+

@@ -5,3 +5,6 @@ function saludar(nombre = "mundo") {
 }
 
 saludar("Juan");
+
+
+//SOLUCION ERRORES !

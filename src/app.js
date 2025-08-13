@@ -1,6 +1,10 @@
-// Versión inicial
-function saludar() {
-    console.log("Hola mundo");
+// saludo.js
+function saludar(nombre = "mundo") {
+    const horaActual = new Date().toLocaleTimeString();
+    console.log(`Hola ${nombre}, la hora es ${horaActual}`);
 }
 
-saludar();
+saludar("Juan");
+
+
+//SOLUCION ERRORES !

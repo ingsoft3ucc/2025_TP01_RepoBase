@@ -1,7 +1,7 @@
 // saludo.js
 function saludar(nombre = "mundo") {
-    console.log(`Hola ${nombre}`);
+    const horaActual = new Date().toLocaleTimeString();
+    console.log(`Hola ${nombre}, la hora es ${horaActual}`);
 }
 
-saludar("Juan"); // Ejemplo de uso
-
+saludar("Juan");

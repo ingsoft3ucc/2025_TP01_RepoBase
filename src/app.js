@@ -18,6 +18,12 @@ function convertir(valor, desde, hacia) {
   if (desde === "F" && hacia === "C") {
     return ((valor - 32) * 5) / 9;
   }
+  if (desde === "km" && hacia === "mi") {
+    return valor / 1.60934;
+  }
+  if (desde === "mi" && hacia === "km") {
+    return valor * 1.60934;
+  }
   return null;
 }
 

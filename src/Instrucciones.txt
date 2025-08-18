@@ -1,0 +1,14 @@
+Para ejecutar Paint.py tienes que tener instalado Python 3.x y las librerías Tkinter y PIL (Pillow).
+
+// Puedes instalar Pillow con el siguiente comando:
+pip install Pillow
+// Para ejecutar el programa, abre una terminal y navega hasta el directorio donde se encuentra Paint.py.
+// Luego ejecuta el siguiente comando:
+python Paint.py
+// Asegúrate de que el archivo Paint.py y las imágenes necesarias estén en el mismo directorio.
+// Si tienes problemas con la instalación de Pillow, puedes consultar la documentación oficial:
+
+Para pintar simplemente con click izquierdo del ratón y arrastrar para dibujar.
+click derecho para borrar.
+
+Puedes presionar L para colocar un punto y haz click de nuevo para crear una linea.

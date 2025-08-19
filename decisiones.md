@@ -12,3 +12,8 @@ Hice 2 commits atómicos:
 2. Documenté en `README.md`.
 
 Elegí esta estrategia porque cada commit refleja un cambio pequeño, independiente y fácil de revertir.
+
+### Corrección de error
+Simulé un error en `main` y lo corregí en la rama `hotfix/readme-fix`.  
+Integré el fix a `main` mediante `merge` y a la rama de feature mediante `cherry-pick`.  
+Elegí `cherry-pick` para evitar traer commits innecesarios a la rama de desarrollo y mantener la historia limpia.

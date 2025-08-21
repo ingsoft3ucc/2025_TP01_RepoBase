@@ -10,4 +10,4 @@ Contiene archivos simples para que puedas practicar creación de ramas, commits,
 
 ## Simulación de error:
 	
-Yo nuncca eh volvido a escrivir ni avlar mal
+Yo nunca he vuelto a escribir ni hablar mal

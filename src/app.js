@@ -10,3 +10,4 @@ function saludarPersonalizado(nombre) {
 }
 
 saludar();
+saludarPersonalizado("Nico");

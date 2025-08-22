@@ -1,6 +1,12 @@
-// Versión inicial
-function saludar() {
-    console.log("Hola mundo");
+// Versión mejorada (parte 2)
+function saludar(nombre = "mundo") {
+  console.log(`Hola ${nombre}`);
 }
 
-saludar();
+function saludarEnMayusculas(nombre = "mundo") {
+  console.log(`HOLA ${String(nombre).toUpperCase()}`);
+}
+
+saludar();                 // salida original
+saludar("equipo");         // param
+saludarEnMayusculas("dev") // segundo modo

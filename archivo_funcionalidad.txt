@@ -1,0 +1,5 @@
+Funcionalidad inicial agregada
+
+# Segunda version de la funcionalidad
+Agregado ejemplo de uso y comentarios explicativos.
+Ejemplo de 2do commit atomico: Modifico el archivo de texto.

@@ -1,2 +1,4 @@
 Este archivo contiene datos de ejemplo para practicar Git.
 Línea 1: Información inicial.
+
+Version 1.0 - Sistema en desarrollo por Rocío Vulcano. Primeros cambios. 
